@@ -1,0 +1,46 @@
+<!Doctype>
+
+	<html>
+		<head>
+			<title>Registeration form</title>
+		</head>
+
+		<body>
+			<form action = "POST" action = "index.php">
+				<h1>Registeration form</h1>
+				<fieldset>
+					<legend> Account </legend>
+				<label>Full Name</label><br/>
+				<input type = "text"  required></br></br>
+				<label>Gmail</label><br/>
+				<input type = "gmail" ></br></br>
+				<label>Password</label><br/>
+				<input type = "Password" ></br></br>
+				<label>Mobile No</label><br/>
+				<input type = "text"  required></br></br>
+				</fieldset>
+
+				<fieldset>
+					<legend>Others</legend>
+				<label>Location</label><br/>
+				<select name = "location">
+					<option selected> Delhi</option>
+					<option> Mumbai</option>
+					<option> Gujarat</option>
+					<option> Rajasthan</option>
+				</select></br></br>
+				<label>Gender</label><br/>
+				<input type = "radio" value = "male" name = "gender"  checked>male
+				<input type = "radio" value = "female" name = "gender" >female<br/><br/>
+
+				<label>Interest</label><br/>
+				   <input type = "checkbox" value = "check" >Sports
+				   <input type = "checkbox" value = "check" checked>Reading
+				   <input type = "checkbox" value = "check" >Writing
+				   <input type = "checkbox" value = "check" >Movie<br/><br/>
+				   </fieldset>
+				<br/><input type = "Submit">
+
+			</form>
+		</body>
+	</html>
